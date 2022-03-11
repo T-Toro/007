@@ -54,6 +54,7 @@ header {
 }
 
 .naiyou {
+  width: 100%;
   writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
 }
