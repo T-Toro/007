@@ -53,7 +53,10 @@ header {
   margin: 0 auto;
 }
 
-
+.h5 {
+  writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+}
 	
 footer a {
   margin-bottom: 10px;
