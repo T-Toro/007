@@ -17,25 +17,6 @@ a {
   margin: 0 auto;
 }
 
-.top-wrapper {
-  padding-top: 180px;
-  padding-bottom: 140px;
-  background-image: url(school.jpg);
-  background-size: cover;
-  color: black;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  font-size: 50px;
-  letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  font-size: 20px;
-  line-height: 55px;
-}
-
 header {
   height: 65px;
   width: 100%;  
@@ -72,8 +53,27 @@ header {
   background-color: #e6ffff;
 }
 
+.top-container {
+  padding-top: 180px;
+  padding-bottom: 140px;
+  background-image: url(school.jpg);
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
 
-.forsale-contener {
+.top-container h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.top-container p {
+  font-size: 20px;
+  line-height: 55px;
+}
+
+
+.forsale-container {
   display: flex;
   color: black;
   padding: 5% 15%;
@@ -86,17 +86,17 @@ header {
   display: block;
 }
 
-.forsale-contener {
+.forsale-container {
   flex: 1 1 0%;
 }
 
-.forsale-contener {
+.forsale-container {
   text-align: center;
   margin-top: 110px;
   margin-left: 25px;
 }
 
-.forsale-content h2 {
+.forsale-container h2 {
   font-size: 20px;
 }
 
