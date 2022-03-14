@@ -1,14 +1,39 @@
 * {
   box-sizing: border-box;
 }
-
+  
 body {
-  margin: 0;
-  font-family:"Noto Serif JP";
+    margin: 0;
+    font-family:"Noto Serif JP";
 }
 
-.contents {
-  background-color: #ebf6f7;
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding-top: 180px;
+  padding-bottom: 140px;
+  background-image: url(school.jpg);
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  font-size: 20px;
+  line-height: 55px;
 }
 
 header {
@@ -47,44 +72,66 @@ header {
   background-color: #e6ffff;
 }
 
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+
+.forsale-contener {
+  display: flex;
+  color: black;
+  padding: 5% 15%;
+  background-color: #ebf6f7;
 }
 
-.naiyou {
-  width: 100%;
-  writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
+.picture img {
+  height: 370px;
+  width: 263px;
+  display: block;
 }
-	
+
+.forsale-contener {
+  flex: 1 1 0%;
+}
+
+.forsale-contener {
+  text-align: center;
+  margin-top: 110px;
+  margin-left: 25px;
+}
+
+.forsale-content h2 {
+  font-size: 20px;
+}
+
+.forsale-container p {
+  font-size: 15px;
+}
+
+.text-contents {
+  width: 85%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #6c848d;
+}
+
 footer a {
   margin-bottom: 10px;
 }
 
 footer img{
   width: 125px;
+  margin-bottom: -5px;
 }
 
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  margin: 0;
 }
 
 footer {
-  position: relative;
   padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
-  background-color: #E0FFFF;
-  z-index: 9;
-}
-
-*, *:before, *:after {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  background-color: #e0ffff;
 }
 
 ol, ul {
@@ -172,16 +219,78 @@ a {
 .clear {
   clear: left;
 }
+
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .top-wrapper h1 {
+    font-size: 28px;
+  }  
+
+  .sonota .hyoshi-content {
+  margin-top: 0;
+  margin-left: 0;
+  }
+}
+
 @media all and (max-width: 670px) {
-	.header-right {
-	display: none;
-	}
+  .header-right {
+    display: none;
+  }
+  
+ .cp_cont {
+    display: block;
+  }
+  
+  .top-wrapper .btn {
+    width: 100%;
+  }
+  
+  .top-wrapper {
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 20px;
+  }
+  
+  .top-wrapper p {
+    font-size: 12px;
+    line-height: 40px;
+  }
+  
+  .sonota {
+    display: block;
+  }
+
+.sonota .hyoshi img {
+    width: 100%;
+    height: auto;
+  }
+
+.sonota .hyoshi-content h2 {
+  font-size: 18px;
+}
+
+  .lesson {
+    width: 100%;
+  }
 	
-	.map img {
-	height: 195px;
-	}
+  .lesson-icon img {
+    width: 40%;
+  }
 	
-	.cp_cont {
-	display: block;
-	}
+  .lesson-icon p {
+    font-size: 20px;
+    top: 22%;
+  }    
+
+  .massage-wrapper .btn {
+    width: 100%;
+  }
 }
