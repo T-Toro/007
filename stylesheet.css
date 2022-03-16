@@ -37,7 +37,8 @@ header {
   
 .header-right {
   float: right;
-  magin-right: -25px;
+  margin-right: -25px;
+  margin-top: -45px;
 }
   
 .header-right a {
