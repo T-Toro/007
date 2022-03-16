@@ -73,6 +73,89 @@ header {
   line-height: 55px;
 }
 
+.story-wrapper {
+  margin :0;
+  font-family: "Noto serif JP";
+  background-color: #ebf6f7;
+}
+
+.story-container: {
+  text-align: center;
+  padding: 30px 0;
+}
+
+h2 {
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+
+.story-content p {
+	font-size: 25px;
+	line-height: 2em;
+}
+
+span {
+	font-size:33px;
+}
+
+.purple {
+	color: #a59aca;
+}
+
+.blue {
+	color: #2ca9e1;
+}
+
+.rainbow {
+	color: #ffec47;
+	background: -webkit-linear-gradient(0deg,#ffc0cb,#ffec47,#ea5550,#9b72b0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.green {
+	color: #47885e;
+}
+
+.indigo {
+	color: #1e50a2;
+}
+
+.orange {
+	color: #f08300;
+}
+
+.rose {
+	color: #e9546b;
+}
+
+.frame-wrapper {
+	position: absolute;
+	display: inline-block;
+	z-index: 5;	
+}
+
+.frame- {
+	width: 400px;
+	height: 400px;
+	top: 113%;
+	right: 75%;	
+}
+
+.frame2 {
+	width: 480px;
+	height: 480px;
+	top: -15%;
+	right: 60%;	
+}
+
+.frame3 {
+	width: 250px;
+	height: 250px;
+	top: 77%;
+	right: 2%;	
+}
+
 .forsale-wrapper {
   display: flex;
   color: black;
