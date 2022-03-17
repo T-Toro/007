@@ -130,7 +130,7 @@ span {
 	z-index: 5;	
 }
 
-.frame- {
+.frame {
 	width: 400px;
 	height: 400px;
 	top: 113%;
@@ -292,76 +292,86 @@ a {
 }
 
 @media all and (max-width: 1000px) {
-  .lesson {
-    width: 80%;
-    margin-bottom: 30px;
-  }
+	footer {
+		text-align: xenter;
+	}
 }
 
 @media all and (max-width: 750px) {
-  .top-wrapper h1 {
-    font-size: 28px;
-  }  
-
-  .sonota .hyoshi-content {
-  margin-top: 0;
-  margin-left: 0;
-  }
+	.top-wrapper h1{
+		font-size: 28px;
+	}
+	
+	.forsale-content {
+		margin-top: 0;
+		margin-left: 0;
+	}
+	
 }
 
 @media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-  
- .cp_cont {
-    display: block;
-  }
-  
-  .top-wrapper .btn {
-    width: 100%;
-  }
-  
-  .top-wrapper {
-    text-align: center;
-  }
-  
-  .top-wrapper h1 {
-    font-size: 20px;
-  }
-  
-  .top-wrapper p {
-    font-size: 12px;
-    line-height: 40px;
-  }
-  
-  .sonota {
-    display: block;
-  }
-
-.sonota .hyoshi img {
-    width: 100%;
-    height: auto;
-  }
-
-.sonota .hyoshi-content h2 {
-  font-size: 18px;
-}
-
-  .lesson {
-    width: 100%;
-  }
+	.header-right {
+		display: none;
+	}
 	
-  .lesson-icon img {
-    width: 40%;
-  }
+	.cp_cont {
+		display: block;
+	}
 	
-  .lesson-icon p {
-    font-size: 20px;
-    top: 22%;
-  }    
-
-  .massage-wrapper .btn {
-    width: 100%;
-  }
+	.top-wrapper .btn {
+		width: 100%
+	}
+	
+	.top-wrapper {
+		text-align: center;
+	}
+	
+	.top-wrapper h1 {
+		font-size: 20px;
+	}
+	
+	.top-wrapper p {
+		font-size: 12px;
+		line-height: 40px;
+	}
+	
+	.story-container p {
+		font-size: 15px;
+	}
+	
+	.frame {
+	  width:300px;
+	  height:300px;
+	  top: 90%;
+	  right: 40%
+	}
+	
+	.frame2 {
+	  width: 380px;
+	  height: 380px;
+	}
+	
+	.frame3 {
+	  width: 150px;
+	  height: 150px;
+	  top: 50%;
+	  right: 10%;
+	}
+		
+	span {
+	  font-size: 20px;
+	}
+	
+	.forsale-wrapper {
+		display: block;
+	}
+	
+	.picture img {
+		width: 100%;
+		height: outo;
+	}
+	
+	.forsale-wrapper h2 {
+		font-size: 18px;
+	}		
 }
