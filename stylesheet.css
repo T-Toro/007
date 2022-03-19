@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family:"Noto Serif JP";
+    background-color: #ebf6f7;
 }
 
 a {
@@ -76,7 +77,6 @@ header {
 .story-wrapper {
   margin :0;
   font-family: "Noto serif JP";
-  background-color: #ebf6f7;
 }
 
 .story-container {
@@ -160,7 +160,6 @@ span {
   display: flex;
   color: black;
   padding: 5% 15%;
-  background-color: #ebf6f7;
 }
 
 .top-wrapper h1 {
@@ -353,22 +352,24 @@ a {
 	}
 	
 	.frame {
-	  width:300px;
-	  height:300px;
-	  top: 90%;
-	  right: 40%;
+	  width:240px;
+	  height:240px;
+	  top: 189%;
+	  right: 42%;
 	}
 	
 	.frame2 {
-	  width: 380px;
-	  height: 380px;
+	  width: 445px;
+	  height: 320px;
+	  top: 112%;
+	  right: 0%;
 	}
 	
 	.frame3 {
 	  width: 150px;
 	  height: 150px;
-	  top: 50%;
-	  right: 10%;
+	  top: 163%%;
+	  right: 0%;
 	}
 		
 	span {
