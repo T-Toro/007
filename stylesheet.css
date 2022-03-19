@@ -139,6 +139,8 @@ span {
 .top-wrapper h1 {
   font-size: 50px;
   letter-spacing: 5px;
+  position: absolute;
+  right: 32%;
 }
 
 .forsale-container {
@@ -148,7 +150,9 @@ span {
 
 .picuture img {
   display: block;
+  margin: 23% 0 0 0;
 }
+
 .forsale-container h2 {
   font-size: 20px;
 }
