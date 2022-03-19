@@ -147,8 +147,6 @@ span {
 }
 
 .picuture img {
-  height: 370px;
-  width: 263px;
   display: block;
 }
 .forsale-container h2 {
@@ -337,12 +335,17 @@ a {
 		display: block;
 	}
 	
+	forsale-wrapper h1 {
+		position: relative;
+		padding: inherit;
+	}
+	
 	.picture img {
 		width: 100%;
 		height: outo;
 	}
 	
 	.forsale-wrapper h2 {
-		font-size: 17px;
+		font-size: 18px;
 	}		
 }
