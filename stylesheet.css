@@ -174,8 +174,6 @@ span {
 .forsale-container {
   flex: 110%;
   text-align: center;
-  margin-top: 110px;
-  margin-left: 25px;
 }
 
 .picuture img {
@@ -385,6 +383,8 @@ a {
 	}
 	
 	.forsale-wrapper {
+		float: right;
+		background-color: #ebf6f7;
 		display: block;
 	}
 	
