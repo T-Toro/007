@@ -91,6 +91,10 @@ header {
 	line-height: 2em;
 }
 
+.jump {
+	font-weight: 900;
+}	
+
 span {
 	font-size:33px;
 }
