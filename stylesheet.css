@@ -85,6 +85,8 @@ header {
 }
 
 .story-container p {
+	position: relative;
+	z-index: 8;
 	font-size: 25px;
 	line-height: 2em;
 }
