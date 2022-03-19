@@ -130,36 +130,6 @@ span {
 	color: #e9546b;
 }
 
-.frame {
-	position: absolute;
-	display: inline-block;
-	z-index: 5;
-	width: 400px;
-	height: 400px;
-	top: 113%;
-	right: 75%;	
-}
-
-.frame2 {
-	position: absolute;
-	display: inline-block;
-	z-index: 5;
-	width: 480px;
-	height: 480px;
-	top: -15%;
-	right: 60%;	
-}
-
-.frame3 {
-	position: absolute;
-	display: inline-block;
-	z-index: 5;
-	width: 250px;
-	height: 250px;
-	top: 77%;
-	right: 2%;	
-}
-
 .forsale-wrapper {
   display: flex;
   color: black;
@@ -357,27 +327,6 @@ a {
 		position: relative;
 	}
 	
-	.frame {
-	  width:240px;
-	  height:240px;
-	  top: 189%;
-	  right: 42%;
-	}
-	
-	.frame2 {
-	  width: 445px;
-	  height: 320px;
-	  top: 112%;
-	  right: 0%;
-	}
-	
-	.frame3 {
-	  width: 150px;
-	  height: 150px;
-	  top: 163%;
-	  right: 0%;
-	}
-		
 	span {
 	  font-size: 20px;
 	}
